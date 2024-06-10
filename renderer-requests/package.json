@@ -1,0 +1,23 @@
+{
+  "name": "renderer-requests",
+  "version": "1.0.0",
+  "description": "Electron IPC bindings for axios within renderer process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/its-mr-monday/electron-requests.git"
+  },
+  "author": "ItsMrMonday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/its-mr-monday/electron-requests/issues"
+  },
+  "homepage": "https://github.com/its-mr-monday/electron-requests#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "electron": "^30.1.0"
+  }
+}
