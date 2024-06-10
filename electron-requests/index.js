@@ -1,6 +1,6 @@
-const { ipcMain } = require('electron');
 const axios = require('axios');
 const https = require('https');
+const { initializeBindings } = require('./ipcBindings');
 
 class HTTPError extends Error {
     constructor(message, status) {
